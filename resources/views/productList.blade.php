@@ -43,9 +43,8 @@
                                     data-name="{{ $item->name }}"
                                     data-price="{{ $item->price }}"
                                   >
-
                                   <i class="fa-solid fa-pen-to-square"></i></a>
-                                  <a href="" class="btn btn-danger"><i class="fa-solid fa-trash"></i></a> 
+                                  <a href="" class="btn btn-danger delete_product" data-id="{{ $item->id }}" ><i class="fa-solid fa-trash"></i></a> 
                               </td>
                             </tr>
                           @endforeach
