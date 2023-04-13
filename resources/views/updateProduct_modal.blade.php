@@ -2,7 +2,7 @@
   <form action="" method="post" id="updateData">
     @csrf
 
-    <input type="hidden" name="up_id">
+    <input type="hidden" name="up_id" id="up_id" >
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
